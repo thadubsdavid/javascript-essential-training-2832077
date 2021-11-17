@@ -8,13 +8,13 @@
 class Backpack {
   constructor(
     // Defines parameters:
-    name,
+    name = String,
     volume,
-    color,
+    color = String,
     pocketNum,
     strapLengthL,
     strapLengthR,
-    lidOpen
+    lidOpen = Boolean
   ) {
     // Define properties:
     this.name = name;
